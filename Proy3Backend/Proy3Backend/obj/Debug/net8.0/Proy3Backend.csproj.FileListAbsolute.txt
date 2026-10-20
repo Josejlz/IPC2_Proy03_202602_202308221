@@ -34,3 +34,6 @@ C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3B
 C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\obj\Debug\net8.0\Proy3Backend.pdb
 C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\obj\Debug\net8.0\Proy3Backend.genruntimeconfig.cache
 C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\obj\Debug\net8.0\ref\Proy3Backend.dll
+C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\bin\Debug\net8.0\Data\correlativo.json
+C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\bin\Debug\net8.0\Data\facturas.json
+C:\Users\lainz\Desktop\UNI\IPC2\lab\Proyecto\IPC2_Proy03_202602_202308221\Proy3Backend\Proy3Backend\bin\Debug\net8.0\Data\rtu.json

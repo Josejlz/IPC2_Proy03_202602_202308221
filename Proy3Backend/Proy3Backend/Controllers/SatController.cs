@@ -21,7 +21,7 @@ namespace Proy3Backend.Controllers
             _consultas = consultas;
         }
 
-        // Escritura
+        // Escritura (Post)
 
         [HttpPost("/Procesar")]
         public async Task<IActionResult> Procesar()
@@ -83,6 +83,123 @@ namespace Proy3Backend.Controllers
         {
             _almacen.Inicializar();
             return Ok(new { mensaje  = "Sistema inicializado: no hay datos almacenados."});
+        }
+
+        //Lectura (Get)
+
+        [HttpGet("/Rtu")]
+        public IActionResult Rtu()
+        {
+            return Ok(_rtu.Listar());
+        }
+
+        [HttpGet("/ConsultarDatos")]
+        public IActionResult ConsultaDatos(
+            [FromQuery] string? nit,
+            [FromQuery] string? tipo,
+            [FromQuery] string? desde,
+            [FromQuery] string? hasta)
+        {
+            string? nitNormalizado = NitValidator.Normalizar(nit);
+            if (nitNormalizado == null)
+            {
+                return Falla("El parametro 'nit' es obligatorio.");
+            }
+
+            string tipoNormalizado = (tipo ?? "").Trim().ToLowerInvariant();
+            bool emitidas;
+
+            if (tipoNormalizado.StartsWith("emit"))
+            {
+                emitidas = true;
+            } else if (tipoNormalizado.StartsWith("recib"))
+            {
+                emitidas = false;
+            } else
+            {
+                return Falla("El parametro 'tipo' debe ser 'emitidas' o 'recibidas'.");
+            }
+
+            string? error = LeerRango(desde, hasta, out DateTime fechaDesde, out DateTime fechaHasta);
+
+            if (error!=null)
+            {
+                return Falla(error);
+            }
+
+            return Ok(_consultas.ConsultaDatos(nitNormalizado, emitidas, fechaDesde, fechaHasta));
+
+        }
+
+        [HttpGet("/ResumenIva")]
+        public IActionResult ResumenIva([FromQuery] string? fecha)
+        {
+            if (!ParserFecha.TryParseConsulta(fecha, out DateTime f))
+            {
+                return Falla("El parametro 'fecha' es obligatorio.");
+            }
+
+            return Ok(_consultas.ResumenIva(f));
+        }
+
+        [HttpGet("/ResumenRango")]
+        public IActionResult ResumenRango(
+            [FromQuery] string? desde,
+            [FromQuery] string? hasta,
+            [FromQuery] string? valores)
+        {
+            string? error = LeerRango(desde, hasta, out DateTime fechaDesde,out DateTime fechaHasta);
+            if (error!=null)
+            {
+                return Falla(error);
+            }
+
+            return Ok(_consultas.ResumenRango(fechaDesde,fechaHasta, EsSinIva(valores)));
+        }
+
+        [HttpGet("/Grafica")]
+        public IActionResult Grafica(
+            [FromQuery] string? resumen,
+            [FromQuery] string? fecha,
+            [FromQuery] string? desde,
+            [FromQuery] string? hasta,
+            [FromQuery] string? valores)
+        {
+            string tipo = (resumen ?? "").Trim().ToLowerInvariant();
+
+            if (tipo == "iva")
+            {
+                if(!ParserFecha.TryParseConsulta(fecha, out DateTime f)){
+                    return Falla("Para resumen = iva, el parametro 'fecha' es obligatorio.");
+                }
+                return Ok(_consultas.GraficaIva(f));
+            }
+            if (tipo == "rango")
+            {
+                string? error = LeerRango(desde, hasta, out DateTime fechaDesde, out DateTime fechaHasta);
+                if (error != null)
+                {
+                    return Falla(error);
+                }
+                return Ok(_consultas.GraficaRango(fechaDesde, fechaHasta, EsSinIva(valores)));
+            }
+
+            return Falla("El parametro 'resumen' debe ser 'iva' o 'rango'.");
+
+        }
+
+        [HttpGet("/Estadisticas")]
+        public IActionResult Estadisticas([FromQuery] string? desde,[FromQuery] string? hasta)
+        {
+            string? error = LeerRango(desde, hasta, out DateTime fechaDesde, out DateTime fechaHasta);
+
+            if (error!=null)
+            {
+                return Falla(error);
+            }
+
+            return Ok(_consultas.Estadisticas(fechaDesde, fechaHasta));
+
         }
 
         //Utilitarios -------------------------------

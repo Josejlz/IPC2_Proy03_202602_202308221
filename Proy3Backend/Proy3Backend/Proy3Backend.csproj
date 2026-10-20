@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>c51663e4-b4be-4fe4-9ea0-0c2be1c8b5cf</UserSecretsId>
+	  <RootNamespace>Proy3Backend</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 

@@ -1,0 +1,122 @@
+[
+  {
+    "Referencia": "A1990",
+    "Fecha": "2025-01-15T15:25:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 112.00,
+    "CodigoAprobacion": 2026102000000001,
+    "Errores": []
+  },
+  {
+    "Referencia": "A1991",
+    "Fecha": "2025-01-15T15:25:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "8338817",
+    "Valor": 200.00,
+    "Iva": 24.00,
+    "Total": 224.00,
+    "CodigoAprobacion": 2026102000000002,
+    "Errores": []
+  },
+  {
+    "Referencia": "A1992",
+    "Fecha": "2025-01-16T09:10:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "8338817",
+    "NitReceptor": "24680133",
+    "Valor": 50.50,
+    "Iva": 6.06,
+    "Total": 56.56,
+    "CodigoAprobacion": 2026102000000003,
+    "Errores": []
+  },
+  {
+    "Referencia": "A1993",
+    "Fecha": "2025-01-16T10:00:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 10.00,
+    "Total": 110.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "IvaMalCalculado"
+    ]
+  },
+  {
+    "Referencia": "A1994",
+    "Fecha": "2025-01-16T11:30:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "98765434",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 112.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "NitEmisorInexistente"
+    ]
+  },
+  {
+    "Referencia": "A1995",
+    "Fecha": "2025-01-16T12:15:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "98765434",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 112.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "NitReceptorInexistente"
+    ]
+  },
+  {
+    "Referencia": "A1996",
+    "Fecha": "2025-01-16T13:45:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378107",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 112.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "NitEmisorInvalido"
+    ]
+  },
+  {
+    "Referencia": "A1997",
+    "Fecha": "2025-01-16T14:00:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 120.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "TotalMalCalculado"
+    ]
+  },
+  {
+    "Referencia": "A1990",
+    "Fecha": "2025-01-16T15:00:00",
+    "FechaSolicitud": "2026-10-20T11:09:58.316599Z",
+    "NitEmisor": "7378106",
+    "NitReceptor": "8338817",
+    "Valor": 100.00,
+    "Iva": 12.00,
+    "Total": 112.00,
+    "CodigoAprobacion": null,
+    "Errores": [
+      "ReferenciaDuplicada"
+    ]
+  }
+]
