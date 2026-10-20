@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\controllers\\satcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\controllers\\satcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\servicios\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\servicios\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\models\\respuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\models\\respuestas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\servicios\\rtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\servicios\\rtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\servicios\\autorizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\servicios\\autorizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\servicios\\almacendatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\servicios\\almacendatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\utilidades\\nitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\utilidades\\nitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\utilidades\\parserfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\utilidades\\parserfecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\utilidades\\jsonlector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\utilidades\\jsonlector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3backend\\proy3backend\\models\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B681FC2-809C-421E-0EDD-B26433726363}|Proy3Backend\\Proy3Backend.csproj|solutionrelative:proy3backend\\models\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +59,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SatController.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Controllers\\SatController.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Controllers\\SatController.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Controllers\\SatController.cs",
+              "RelativeToolTip": "Proy3Backend\\Controllers\\SatController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T21:07:09.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsultaService.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\ConsultaService.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Servicios\\ConsultaService.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\ConsultaService.cs",
+              "RelativeToolTip": "Proy3Backend\\Servicios\\ConsultaService.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAYwLwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:38:51.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Respuestas.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Models\\Respuestas.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Models\\Respuestas.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Models\\Respuestas.cs",
+              "RelativeToolTip": "Proy3Backend\\Models\\Respuestas.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T03:47:37.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RtuService.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\RtuService.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Servicios\\RtuService.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\RtuService.cs",
+              "RelativeToolTip": "Proy3Backend\\Servicios\\RtuService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:39:04.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorizacionService.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\AutorizacionService.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Servicios\\AutorizacionService.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\AutorizacionService.cs",
+              "RelativeToolTip": "Proy3Backend\\Servicios\\AutorizacionService.cs",
+              "ViewState": "AgIAAGcAAAAAnJmZmZn/vzsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:38:33.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlmacenDatos.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\AlmacenDatos.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Servicios\\AlmacenDatos.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Servicios\\AlmacenDatos.cs",
+              "RelativeToolTip": "Proy3Backend\\Servicios\\AlmacenDatos.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwFMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:38:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NitValidator.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\NitValidator.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Utilidades\\NitValidator.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\NitValidator.cs",
+              "RelativeToolTip": "Proy3Backend\\Utilidades\\NitValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:13:25.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Program.cs",
               "RelativeDocumentMoniker": "Proy3Backend\\Program.cs",
               "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Program.cs",
               "RelativeToolTip": "Proy3Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-18T23:46:33.102Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParserFecha.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\ParserFecha.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Utilidades\\ParserFecha.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\ParserFecha.cs",
+              "RelativeToolTip": "Proy3Backend\\Utilidades\\ParserFecha.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T18:24:56.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JsonLector.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\JsonLector.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Utilidades\\JsonLector.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Utilidades\\JsonLector.cs",
+              "RelativeToolTip": "Proy3Backend\\Utilidades\\JsonLector.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:16:18.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Modelos.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Models\\Modelos.cs",
+              "RelativeDocumentMoniker": "Proy3Backend\\Models\\Modelos.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Backend\\Proy3Backend\\Models\\Modelos.cs",
+              "RelativeToolTip": "Proy3Backend\\Models\\Modelos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T03:46:54.206Z"
             }
           ]
         }
