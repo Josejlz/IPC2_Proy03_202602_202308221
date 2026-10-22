@@ -4,4 +4,5 @@ obj/
 .vscode/
 *.user
 
-Backend/Data/
+Proy3Backend/Proy3Backend/Data/
+Proy3Frontend/Proy3Frontend/Data/
