@@ -1,0 +1,54 @@
+﻿@page
+@model Proy3Frontend.Pages.Peticiones.EstadisticasModel
+@{
+	ViewData["Title"] = "Estadisticas";
+}
+
+<h1>Estadísticas por fecha</h1>
+
+<form method="get" class="filtros">
+    <label>
+        Desde
+        <input type="date" asp-for="Desde" required />
+    </label>
+    <label>
+        Hasta
+        <input type="date" asp-for="Hasta" required />
+    </label>
+    <button type="submit">Consultar</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}
+else if (Model.Resultado != null)
+{
+    if (Model.Resultado.Dias.Count == 0)
+    {
+        <p class="vacio">No hay facturas recibidas en el rango indicado.</p>
+    }
+
+    foreach (var d in Model.Resultado.Dias)
+    {
+        <section class="tarjeta">
+            <h3>FECHA: @d.Fecha</h3>
+            <table class="clave-valor">
+                <tr><th>Cantidad total de facturas recibidas</th><td>@d.CantidadFacturasRecibidas</td></tr>
+                <tr><th colspan="2" class="sub">Listado de errores en facturas recibidas</th></tr>
+                <tr><th>NIT emisor inválido</th><td>@d.Errores.NitEmisorInvalido</td></tr>
+                <tr><th>NIT receptor inválido</th><td>@d.Errores.NitReceptorInvalido</td></tr>
+                <tr><th>NIT emisor inexistente</th><td>@d.Errores.NitEmisorInexistente</td></tr>
+                <tr><th>NIT receptor inexistente</th><td>@d.Errores.NitReceptorInexistente</td></tr>
+                <tr><th>IVA mal calculado</th><td>@d.Errores.IvaMalCalculado</td></tr>
+                <tr><th>TOTAL mal calculado</th><td>@d.Errores.TotalMalCalculado</td></tr>
+                <tr><th>REFERENCIA duplicada</th><td>@d.Errores.ReferenciaDuplicada</td></tr>
+                <tr><th>Datos inválidos (fecha, referencia o valor)</th><td>@d.Errores.DatosInvalidos</td></tr>
+                <tr><th class="sub" colspan="2">Resumen</th></tr>
+                <tr><th>Cantidad de facturas sin errores</th><td>@d.CantidadFacturasSinErrores</td></tr>
+                <tr><th>Cantidad de emisores de facturas</th><td>@d.CantidadEmisores</td></tr>
+                <tr><th>Cantidad de receptores de facturas</th><td>@d.CantidadReceptores</td></tr>
+            </table>
+        </section>
+    }
+}

@@ -1,14 +1,38 @@
 [
   {
+    "Nit": "1000004",
+    "Nombre": "Papelera Central"
+  },
+  {
+    "Nit": "1234560",
+    "Nombre": "Ferreter\u00EDa La Esquina"
+  },
+  {
+    "Nit": "123456789012345678908",
+    "Nombre": "Corporaci\u00F3n de Veinte D\u00EDgitos"
+  },
+  {
     "Nit": "24680133",
-    "Nombre": "Distribuidora Central"
+    "Nombre": "Transportes Atitl\u00E1n"
+  },
+  {
+    "Nit": "5123453",
+    "Nombre": "Servicios Integrales del Norte"
+  },
+  {
+    "Nit": "6K",
+    "Nombre": "Tienda M\u00EDnima"
   },
   {
     "Nit": "7378106",
-    "Nombre": "Empresa ABC, S.A."
+    "Nombre": "No soy un arreglo"
   },
   {
     "Nit": "8338817",
     "Nombre": "Comercial XYZ, S.A."
+  },
+  {
+    "Nit": "999999K",
+    "Nombre": "Distribuidora El Quetzal"
   }
 ]

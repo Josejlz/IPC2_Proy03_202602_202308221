@@ -1,0 +1,25 @@
+﻿@page
+@model Proy3Frontend.Pages.InicializarModel
+@{
+	    ViewData["Title"] = "Inicializar";
+}
+
+<h1>Inicializar</h1>
+<p>
+    Envía un mensaje a la API para devolver el sistema al estado inicial: se borran el RTU, las facturas
+    y el correlativo de autorizaciones. Esta acción no se puede deshacer.
+</p>
+
+<form method="post" onsubmit="return confirm('¿Seguro que quieres borrar todos los datos?');">
+    <button type="submit" class="peligro">Inicializar sistema</button>
+</form>
+
+@if (Model.Mensaje != null)
+{
+    <p class="ok">@Model.Mensaje</p>
+}
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}

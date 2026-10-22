@@ -4,7 +4,19 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Simulador de la aplicación principal</h1>
+<p>
+    Esta aplicación sirve para probar el Servicio 2 (API de autorización de DTE).
+    API configurada en: <code>@Model.UrlApi</code>
+</p>
+
+<div class="tarjetas">
+    <a asp-page="/Enviar"><strong>Enviar mensaje</strong>Sube archivos .json con el RTU o con solicitudes de autorización.</a>
+    <a asp-page="/Peticiones/Contribuyente"><strong>Consultar contribuyente</strong>Facturas emitidas o recibidas por NIT.</a>
+    <a asp-page="/Peticiones/ResumenIva"><strong>Resumen de IVA</strong>IVA emitido y recibido por NIT en una fecha.</a>
+    <a asp-page="/Peticiones/ResumenRango"><strong>Resumen por rango</strong>Valor autorizado por fecha, con o sin IVA.</a>
+    <a asp-page="/Peticiones/Grafica"><strong>Gráficas</strong>Gráficas de los dos resúmenes.</a>
+    <a asp-page="/Peticiones/Estadisticas"><strong>Estadísticas</strong>Errores y totales por fecha.</a>
+    <a asp-page="/Peticiones/Reporte"><strong>Reporte en PDF</strong>Todas las peticiones en un solo PDF.</a>
+    <a asp-page="/Inicializar"><strong>Inicializar</strong>Devuelve el sistema al estado inicial, sin datos.</a>
 </div>

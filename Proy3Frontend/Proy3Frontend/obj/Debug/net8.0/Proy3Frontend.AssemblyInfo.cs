@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proy3Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6660cb94795c9cc688169a1f8cef332f2c1c3028")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proy3Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proy3Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

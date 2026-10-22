@@ -1,12 +1,572 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\resumeniva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\resumeniva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\resumeniva.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\resumeniva.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\reporte.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\reporte.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\servicios\\reportepdfbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\servicios\\reportepdfbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\grafica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\grafica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\estadisticas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\estadisticas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\estadisticas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\estadisticas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\contribuyente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\contribuyente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\grafica.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\grafica.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\peticiones\\contribuyente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\peticiones\\contribuyente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\ayuda\\estudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\ayuda\\estudiante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\ayuda\\documentacion.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\ayuda\\documentacion.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\ayuda\\documentacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\ayuda\\documentacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\inicializar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\inicializar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\enviar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\enviar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\servicios\\formato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\servicios\\formato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\ayuda\\estudiante.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\ayuda\\estudiante.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\servicios\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\servicios\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\enviar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\enviar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\inicializar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\inicializar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|c:\\users\\lainz\\desktop\\uni\\ipc2\\lab\\proyecto\\ipc2_proy03_202602_202308221\\proy3frontend\\proy3frontend\\servicios\\respuestaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8B8C47-AF4A-F1AF-9D59-2CCA35145D93}|Proy3Frontend\\Proy3Frontend.csproj|solutionrelative:proy3frontend\\servicios\\respuestaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResumenIva.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T18:24:34.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResumenIva.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\ResumenIva.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T18:26:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reporte.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T18:18:18.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reporte.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Reporte.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T18:17:48.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportePdfBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\ReportePdfBuilder.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Servicios\\ReportePdfBuilder.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\ReportePdfBuilder.cs",
+              "RelativeToolTip": "Proy3Frontend\\Servicios\\ReportePdfBuilder.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:00:11.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grafica.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T17:21:09.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Estadisticas.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T16:52:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Estadisticas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Estadisticas.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAywBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:52:33.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Models\\Dtos.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Models\\Dtos.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Models\\Dtos.cs",
+              "RelativeToolTip": "Proy3Frontend\\Models\\Dtos.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvxIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T00:21:22.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contribuyente.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T08:30:54.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Grafica.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Grafica.cshtml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwD8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:22:55.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contribuyente.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Peticiones\\Contribuyente.cshtml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T08:32:19.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Estudiante.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T02:54:32.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Documentacion.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:44:53.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Documentacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Ayuda\\Documentacion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T02:54:15.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Inicializar.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Inicializar.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Inicializar.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Inicializar.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Inicializar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:37:14.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:24:36.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Enviar.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Enviar.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Enviar.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Enviar.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Enviar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:50:26.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:08:39.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:07:49.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Formato.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\Formato.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Servicios\\Formato.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\Formato.cs",
+              "RelativeToolTip": "Proy3Frontend\\Servicios\\Formato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T01:49:18.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Estudiante.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Ayuda\\Estudiante.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T08:08:28.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T07:52:20.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Servicios\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\ApiClient.cs",
+              "RelativeToolTip": "Proy3Frontend\\Servicios\\ApiClient.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T02:53:31.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Enviar.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Enviar.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Enviar.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Enviar.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Enviar.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:51:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Inicializar.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Inicializar.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Inicializar.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Inicializar.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Inicializar.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:37:47.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Proy3Frontend\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Proy3Frontend\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAYwBMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-21T08:35:59.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:10:27.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-21T08:11:22.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Proy3Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:08:57.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Program.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Program.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Program.cs",
+              "RelativeToolTip": "Proy3Frontend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T07:34:28.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\appsettings.json",
+              "RelativeDocumentMoniker": "Proy3Frontend\\appsettings.json",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\appsettings.json",
+              "RelativeToolTip": "Proy3Frontend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T07:28:52.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RespuestaApi.cs",
+              "DocumentMoniker": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\RespuestaApi.cs",
+              "RelativeDocumentMoniker": "Proy3Frontend\\Servicios\\RespuestaApi.cs",
+              "ToolTip": "C:\\Users\\lainz\\Desktop\\UNI\\IPC2\\lab\\Proyecto\\IPC2_Proy03_202602_202308221\\Proy3Frontend\\Proy3Frontend\\Servicios\\RespuestaApi.cs",
+              "RelativeToolTip": "Proy3Frontend\\Servicios\\RespuestaApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T01:43:55.576Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

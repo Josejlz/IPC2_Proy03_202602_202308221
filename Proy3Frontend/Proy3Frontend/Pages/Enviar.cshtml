@@ -1,0 +1,80 @@
+﻿@page
+@model Proy3Frontend.Pages.EnviarModel
+@{
+    ViewData["Title"] = "Enviar mensaje";
+}
+
+<h1>Enviar mensaje</h1>
+<p>
+    Selecciona uno o varios archivos <code>.json</code> con una actualización del RTU o con solicitudes de
+    autorización. Cada archivo se envía tal cual a la API (<code>POST /Procesar</code>) y se muestra su respuesta.
+</p>
+
+<form method="post" enctype="multipart/form-data" class="filtros">
+    <label>
+        Archivos JSON
+        <input type="file" name="Archivos" accept=".json,application/json" multiple required />
+    </label>
+    <button type="submit">Enviar</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}
+
+@foreach (var r in Model.Resultados)
+{
+    <section class="tarjeta">
+        <h2>@r.Nombre <small>(@r.Elementos elementos, @r.Bytes bytes)</small></h2>
+
+        @if (!r.Ok)
+        {
+            <p class="error">@r.Error</p>
+        }
+        else
+        {
+            if (r.Tipo != "")
+            {
+                <p><strong>@r.Tipo</strong></p>
+            }
+
+            if (r.Resumen.Count > 0)
+            {
+                <table class="clave-valor">
+                    @foreach (var fila in r.Resumen)
+                    {
+                        <tr><th>@fila.Key</th><td>@fila.Value</td></tr>
+                    }
+                </table>
+            }
+
+            if (r.Aprobaciones.Count > 0)
+            {
+                <details>
+                    <summary>Detalle de aprobaciones (@r.Aprobaciones.Count)</summary>
+                    <div class="scroll">
+                        <table>
+                            <tr><th>Referencia</th><th>Código de aprobación</th></tr>
+                            @foreach (var a in r.Aprobaciones)
+                            {
+                                <tr><td>@a.Referencia</td><td>@a.Codigo</td></tr>
+                            }
+                        </table>
+                    </div>
+                </details>
+            }
+
+            <details>
+                <summary>Respuesta JSON completa</summary>
+                <pre>@r.Respuesta</pre>
+            </details>
+        }
+
+        <details>
+            <summary>Contenido enviado (vista previa)</summary>
+            <pre>@r.Enviado</pre>
+        </details>
+    </section>
+}
+

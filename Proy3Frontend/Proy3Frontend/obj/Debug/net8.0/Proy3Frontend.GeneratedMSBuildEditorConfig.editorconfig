@@ -23,16 +23,44 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Ayuda/Documentacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXl1ZGFcRG9jdW1lbnRhY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Ayuda/Estudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXl1ZGFcRXN0dWRpYW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Enviar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Inicializar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Peticiones/Contribuyente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0aWNpb25lc1xDb250cmlidXllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Peticiones/Estadisticas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0aWNpb25lc1xFc3RhZGlzdGljYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Peticiones/Grafica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0aWNpb25lc1xHcmFmaWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Peticiones/Reporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0aWNpb25lc1xSZXBvcnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Peticiones/ResumenIva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0aWNpb25lc1xSZXN1bWVuSXZhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lainz/Desktop/UNI/IPC2/lab/Proyecto/IPC2_Proy03_202602_202308221/Proy3Frontend/Proy3Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,0 +1,104 @@
+﻿@page
+@model Proy3Frontend.Pages.Peticiones.ContribuyenteModel
+@using Proy3Frontend.Servicios;
+@{
+    ViewData["Title"] = "Consultar contribuyente";
+}
+
+<h1>Consultar contribuyente</h1>
+
+<form method="get" class="filtros">
+    <label>
+        NIT
+        <input type="text" asp-for="Nit" required />
+    </label>
+    <label>
+        Facturas
+        <select asp-for="Tipo">
+            <option value="emitidas">Emitidas</option>
+            <option value="recibidas">Recibidas</option>
+        </select>
+    </label>
+    <label>
+        Desde
+        <input type="date" asp-for="Desde" required />
+    </label>
+    <label>
+        Hasta
+        <input type="date" asp-for="Hasta" required />
+    </label>
+    <button type="submit">Consultar</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}
+else if (Model.Resultado != null)
+{
+    var r = Model.Resultado;
+
+    <section class="tarjeta">
+        <h2>NIT @r.Nit @(r.Nombre != null ? "- " + r.Nombre : "")</h2>
+        <p>Facturas @r.Tipo del @r.Desde al @r.Hasta</p>
+
+        @if (r.PorFecha.Count == 0)
+        {
+            <p class="vacio">No hay facturas autorizadas para este NIT en el rango indicado.</p>
+        }
+        else
+        {
+            <table>
+                <tr>
+                    <th>Fecha</th>
+                    <th class="num">Facturas autorizadas</th>
+                    <th class="num">Monto total facturado</th>
+                </tr>
+                @foreach (var f in r.PorFecha)
+                {
+                    <tr>
+                        <td>@f.Fecha</td>
+                        <td class="num">@f.CantidadFacturas</td>
+                        <td class="num">@Formato.Dinero(f.MontoTotal)</td>
+                    </tr>
+                }
+                <tr class="total">
+                    <td>Total del rango</td>
+                    <td class="num">@r.TotalFacturas</td>
+                    <td class="num">@Formato.Dinero(r.MontoTotal)</td>
+                </tr>
+            </table>
+
+            <details>
+                <summary>Listado de facturas (@r.Facturas.Count)</summary>
+                <div class="scroll">
+                    <table>
+                        <tr>
+                            <th>Referencia</th>
+                            <th>Fecha</th>
+                            <th>NIT emisor</th>
+                            <th>NIT receptor</th>
+                            <th class="num">Valor</th>
+                            <th class="num">IVA</th>
+                            <th class="num">Total</th>
+                            <th>Autorización</th>
+                        </tr>
+                        @foreach (var fac in r.Facturas)
+                        {
+                            <tr>
+                                <td>@fac.Referencia</td>
+                                <td>@fac.Fecha</td>
+                                <td>@fac.NitEmisor</td>
+                                <td>@fac.NitReceptor</td>
+                                <td class="num">@Formato.Numero(fac.Valor)</td>
+                                <td class="num">@Formato.Numero(fac.Iva)</td>
+                                <td class="num">@Formato.Numero(fac.Total)</td>
+                                <td>@fac.CodigoAprobacion</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </details>
+        }
+    </section>
+}

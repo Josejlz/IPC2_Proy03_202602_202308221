@@ -1,0 +1,60 @@
+﻿@page
+@model Proy3Frontend.Pages.Peticiones.ResumenIvaModel
+@{
+    ViewData["Title"] = "Resumen de IVA";
+}
+@using Proy3Frontend.Servicios;
+
+<h1>Resumen de IVA por fecha y NIT</h1>
+
+<form method="get" class="filtros">
+    <label>
+        Fecha
+        <input type="date" asp-for="Fecha" required />
+    </label>
+    <button type="submit">Consultar</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}
+else if (Model.Resultado != null)
+{
+    var r = Model.Resultado;
+
+    <section class="tarjeta">
+        <h2>Fecha: @r.Fecha</h2>
+
+        @if (r.Nits.Count == 0)
+        {
+            <p class="vacio">No hay facturas autorizadas en esa fecha.</p>
+        }
+        else
+        {
+            <table>
+                <tr>
+                    <th>NIT</th>
+                    <th>Nombre</th>
+                    <th class="num">IVA emitido</th>
+                    <th class="num">IVA recibido</th>
+                </tr>
+                @foreach (var n in r.Nits)
+                {
+                    <tr>
+                        <td>@n.Nit</td>
+                        <td>@n.Nombre</td>
+                        <td class="num">@Formato.Dinero(n.IvaEmitido)</td>
+                        <td class="num">@Formato.Dinero(n.IvaRecibido)</td>
+                    </tr>
+                }
+                <tr class="total">
+                    <td colspan="2">Total</td>
+                    <td class="num">@Formato.Dinero(r.Nits.Sum(n => n.IvaEmitido))</td>
+                    <td class="num">@Formato.Dinero(r.Nits.Sum(n => n.IvaRecibido))</td>
+                </tr>
+            </table>
+        }
+    </section>
+}
+

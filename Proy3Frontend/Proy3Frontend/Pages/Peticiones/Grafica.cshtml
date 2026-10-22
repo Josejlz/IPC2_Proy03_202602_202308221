@@ -1,0 +1,93 @@
+﻿@page
+@model Proy3Frontend.Pages.Peticiones.GraficaModel
+@{
+    ViewData["Title"] = "Gráficas";
+}
+
+<h1>Gráficas</h1>
+<p>Completa los datos de la gráfica (o de las dos) que quieras ver.</p>
+
+<form method="get">
+    <fieldset>
+        <legend>Resumen de IVA por NIT</legend>
+        <label>
+            Fecha
+            <input type="date" asp-for="Fecha" />
+        </label>
+    </fieldset>
+
+    <fieldset style="margin-top: 12px;">
+        <legend>Resumen por rango de fechas</legend>
+        <label>
+            Desde
+            <input type="date" asp-for="Desde" />
+        </label>
+        <label>
+            Hasta
+            <input type="date" asp-for="Hasta" />
+        </label>
+        <label>
+            Valores
+            <select asp-for="Valores">
+                <option value="total">Totales (con IVA)</option>
+                <option value="sinIva">Sin IVA</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <p><button type="submit">Graficar</button></p>
+</form>
+
+@if (Model.ErrorIva != null)
+{
+    <p class="error">@Model.ErrorIva</p>
+}
+else if (Model.JsonIva != null)
+{
+    <h2>@Model.TituloIva</h2>
+    <canvas id="graficaIva"></canvas>
+}
+
+@if (Model.ErrorRango != null)
+{
+    <p class="error">@Model.ErrorRango</p>
+}
+else if (Model.JsonRango != null)
+{
+    <h2>@Model.TituloRango</h2>
+    <canvas id="graficaRango"></canvas>
+}
+
+@if (Model.JsonIva != null || Model.JsonRango != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script>
+        const colores = ['#3366cc', '#e6821a', '#2e9e5b'];
+
+        function dibujar(id, datos) {
+            new Chart(document.getElementById(id), {
+                type: 'bar',
+                data: {
+                    labels: datos.etiquetas,
+                    datasets: datos.series.map((s, i) => ({
+                        label: s.nombre,
+                        data: s.valores,
+                        backgroundColor: colores[i % colores.length]
+                    }))
+                },
+                options: { scales: { y: { beginAtZero: true } } }
+            });
+        }
+
+        @if (Model.JsonIva != null)
+        {
+            <text>dibujar('graficaIva', @Html.Raw(Model.JsonIva));</text>
+        }
+
+        @if (Model.JsonRango != null)
+        {
+            <text>dibujar('graficaRango', @Html.Raw(Model.JsonRango));</text>
+        }
+    </script>
+}
+
