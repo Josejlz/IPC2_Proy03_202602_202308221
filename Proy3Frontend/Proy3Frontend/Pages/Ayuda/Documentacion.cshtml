@@ -1,19 +1,20 @@
 ﻿@page
 @model Proy3Frontend.Pages.Ayuda.DocumentacionModel
 @{
-	ViewData["Title"] = "Documentacion";
+    ViewData["Title"] = "Documentacion";
 }
 
-<h1>Documentacion</h1>
+<h1>Documentación</h1>
 
 @if (Model.Existe)
 {
-	<p><a href="@DocumentacionModel.RutaPublica" target="_blank">Abrir en una nueva pestaña.</a></p>
-	<iframe class="documento" src="@DocumentacionModel.RutaPublica"></iframe>
-} else
+    <p><a href="@Model.RutaPublica" target="_blank">Abrir en una nueva pestaña.</a></p>
+    <iframe class="documento" src="@Model.RutaPublica"></iframe>
+} 
+else
 {
-	<p class="error">
-		Aun sin documentación.
-	</p>
+    <p class="error">
+        Aún sin documentación.
+    </p>
 }
 

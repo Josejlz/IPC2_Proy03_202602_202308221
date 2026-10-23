@@ -5,9 +5,7 @@ namespace Proy3Frontend.Pages.Ayuda
 {
     public class DocumentacionModel : PageModel
     {
-
-        public const string RutaPublica = "/docs/documentacion.pdf";
-
+        private const string RutaBase = "/docs/documentacion.pdf";
         private readonly IWebHostEnvironment _entorno;
 
         public DocumentacionModel(IWebHostEnvironment entorno)
@@ -16,10 +14,19 @@ namespace Proy3Frontend.Pages.Ayuda
         }
 
         public bool Existe { get; private set; }
+        public string RutaPublica { get; private set; } = string.Empty;
 
         public void OnGet()
         {
-            Existe = _entorno.WebRootFileProvider.GetFileInfo("/docs/documentacion.pdf").Exists;
+            var fileInfo = _entorno.WebRootFileProvider.GetFileInfo(RutaBase);
+            Existe = fileInfo.Exists;
+
+            if (Existe)
+            {
+                
+                long version = fileInfo.LastModified.Ticks;
+                RutaPublica = $"{RutaBase}?v={version}";
+            }
         }
     }
 }
