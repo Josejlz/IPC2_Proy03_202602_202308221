@@ -2,7 +2,7 @@ using Proy3Backend.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls(builder.Configuration["urls"]?? "http:localhost:5000");
+builder.WebHost.UseUrls(builder.Configuration["urls"]?? "http://localhost:5000");
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddSingleton<AlmacenDatos>();

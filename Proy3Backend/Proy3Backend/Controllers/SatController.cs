@@ -93,6 +93,7 @@ namespace Proy3Backend.Controllers
             return Ok(_rtu.Listar());
         }
 
+        [HttpGet("/ConsultaDatos")]
         [HttpGet("/ConsultarDatos")]
         public IActionResult ConsultaDatos(
             [FromQuery] string? nit,
@@ -224,7 +225,7 @@ namespace Proy3Backend.Controllers
                 return "El parametro 'desde' es obligatorio.";
             }
 
-            if (!ParserFecha.TryParseConsulta(hasta, out fechaDesde))
+            if (!ParserFecha.TryParseConsulta(hasta, out fechaHasta))
             {
                 return "El parametro 'hasta' es obligatorio.";
             }

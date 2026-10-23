@@ -4,4 +4,46 @@
     ViewData["Title"] = "Reporte en PDF";
 }
 
+<h1>Reporte en PDF</h1>
+<p>
+    Genera un PDF con todas las peticiones. Cada sección se incluye solo si completas sus datos:
+</p>
+<ul>
+    <li><strong>Estadísticas</strong> y <strong>resumen por rango</strong> (con su gráfica): necesitan Desde y Hasta.</li>
+    <li><strong>Facturas por contribuyente</strong>: necesita además el NIT.</li>
+    <li><strong>Resumen de IVA</strong> (con su gráfica): necesita la Fecha.</li>
+</ul>
 
+<form method="post" target="_blank" class="filtros">
+    <label>
+        Desde
+        <input type="date" asp-for="Desde" />
+    </label>
+    <label>
+        Hasta
+        <input type="date" asp-for="Hasta" />
+    </label>
+    <label>
+        NIT
+        <input type="text" asp-for="Nit" />
+    </label>
+    <label>
+        Facturas del NIT
+        <select asp-for="Tipo">
+            <option value="emitidas">Emitidas</option>
+            <option value="recibidas">Recibidas</option>
+        </select>
+    </label>
+    <label>
+        Fecha del resumen de IVA
+        <input type="date" asp-for="Fecha" />
+    </label>
+    <label>
+        Valores del resumen por rango
+        <select asp-for="Valores">
+            <option value="total">Totales (con IVA)</option>
+            <option value="sinIva">Sin IVA</option>
+        </select>
+    </label>
+    <button type="submit">Generar PDF</button>
+</form>

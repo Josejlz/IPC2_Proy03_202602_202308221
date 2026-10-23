@@ -1,0 +1,69 @@
+﻿@page
+@model Proy3Frontend.Pages.Peticiones.ResumenRangoModel
+@{
+    ViewData["Title"] = "Resumen por rango de fechas";
+}
+@using Proy3Frontend.Servicios;
+
+<h1>Resumen por rango de fechas</h1>
+
+<form method="get" class="filtros">
+    <label>
+        Desde
+        <input type="date" asp-for="Desde" required />
+    </label>
+    <label>
+        Hasta
+        <input type="date" asp-for="Hasta" required />
+    </label>
+    <label>
+        Valores
+        <select asp-for="Valores">
+            <option value="total">Totales (con IVA)</option>
+            <option value="sinIva">Sin IVA</option>
+        </select>
+    </label>
+    <button type="submit">Consultar</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p class="error">@Model.Error</p>
+}
+else if (Model.Resultado != null)
+{
+    var r = Model.Resultado;
+
+    <section class="tarjeta">
+        <h2>Del @r.Desde al @r.Hasta</h2>
+        <p>Valores: @(r.Valores == "sinIva" ? "sin IVA" : "totales (con IVA)")</p>
+
+        @if (r.Fechas.Count == 0)
+        {
+            <p class="vacio">No hay facturas autorizadas en el rango indicado.</p>
+        }
+        else
+        {
+            <table>
+                <tr>
+                    <th>Fecha</th>
+                    <th class="num">Facturas autorizadas</th>
+                    <th class="num">Valor autorizado</th>
+                </tr>
+                @foreach (var f in r.Fechas)
+                {
+                    <tr>
+                        <td>@f.Fecha</td>
+                        <td class="num">@f.CantidadFacturas</td>
+                        <td class="num">@Formato.Dinero(f.Valor)</td>
+                    </tr>
+                }
+                <tr class="total">
+                    <td>Total</td>
+                    <td class="num">@(r.Fechas.Sum(f => f.CantidadFacturas))</td>
+                    <td class="num">@Formato.Dinero(r.Total)</td>
+                </tr>
+            </table>
+        }
+    </section>
+}
